@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "name": "Front End",
+            "descricao": "Uma categoria para os videos",
+            "cor": "#cbd1ff"
+        },
+        {
+            "id": 2,
+            "name": "Back End",
+            "descricao": "Outra categoria para os videos",
+            "cor": "#cbd1ff"
+        }
+    ]
+}

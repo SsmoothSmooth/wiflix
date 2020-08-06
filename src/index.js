@@ -10,28 +10,33 @@ import CadastroCategoria from './pages/cadastro/Categoria';
 // Desafio master blaster na descrição
 // Colocar um jogo ou brincadeira nessa página:
 const Pagina404 = () => (
-  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
-    <h1>Ops, quebrou tudo :O</h1>
+  <div style={{
+    display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column',
+  }}
+  >
+    <h1>Quebrou tudo *_*</h1>
     <p>
-      <a href="/">Você pode jogar ou voltar pra home :)</a>
+      <a href="/">Você pode voltar pra home</a>
     </p>
     <p>
-      Ou <a href="https://www.youtube.com/watch?v=jOAU81jdi-c&list=PLTcmLKdIkOWmeNferJ292VYKBXydGeDej">aprender a fazer o jogo</a>
+      Ou aprender a fazer o jogo
     </p>
     {/*
-      Pessoal, quem quiser fazer o desafio do Flappy Bird, da pra usar esse iframe aqui: 
+        Desafio do Flappy Bird, da pra usar esse iframe aqui:
       - https://codepen.io/omariosouto/pen/pogmdGE
 
-      E quem quiser programar o jogo:
+      programar o jogo:
       - https://www.youtube.com/watch?v=jOAU81jdi-c&list=PLTcmLKdIkOWmeNferJ292VYKBXydGeDej
     */}
-    <iframe
+
+    Pagina Erro 404 !!
+    {/* <iframe
       title="Flappy Bird Game"
       src="https://mariosouto.com/flappy-bird-devsoutinho/"
       width="340"
-      height="600" />
+      height="600" /> */}
   </div>
-)
+);
 
 ReactDOM.render(
   <BrowserRouter>
@@ -42,5 +47,5 @@ ReactDOM.render(
       <Route component={Pagina404} />
     </Switch>
   </BrowserRouter>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
